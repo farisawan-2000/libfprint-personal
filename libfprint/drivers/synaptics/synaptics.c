@@ -31,7 +31,7 @@ static void init_identify_msg (FpDevice *device);
 static void compose_and_send_identify_msg (FpDevice *device);
 
 static const FpIdEntry id_table[] = {
-  { .vid = SYNAPTICS_VENDOR_ID,  .pid = 0xBD,  },
+  { .vid = SYNAPTICS_VENDOR_ID,  .pid = 0xBE,  },
   { .vid = SYNAPTICS_VENDOR_ID,  .pid = 0xE9,  },
   { .vid = SYNAPTICS_VENDOR_ID,  .pid = 0xDF,  },
   { .vid = SYNAPTICS_VENDOR_ID,  .pid = 0xF9,  },
